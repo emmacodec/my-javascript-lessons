@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sroll magic</title>
+        <style>
+            body {
+                height: 2000px;
+            }
+
+            .progress {
+                border: 1px solid blue;
+                width: 10px;
+                position: fixed;
+                top: 10px; right: 10px;
+            }
+
+            .progress >div {
+                 height: 12px;
+                 background: blue;
+                 width: 0px;
+            }
+        </style>
+        <body>
+            <h1>draws a progress bar in the top-right corner of the document</h1>
+            <div class="progress"><div></div></div>
+            <p>scroll me.....</p>
+
+            <script src="./scroll-event.js"></script>
+        </body>
+    </head>
+</html>

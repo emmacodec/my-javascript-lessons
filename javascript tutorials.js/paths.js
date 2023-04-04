@@ -1,0 +1,7 @@
+var cx=document.querySelector("canvas").getContext("2d");
+cx.beginPath();
+for (var y =10; y<100; y +=10) {
+    cx.moveTo(10,y);
+    cx.lineTo(90,y);
+}
+cx.stroke();
